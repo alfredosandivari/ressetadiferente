@@ -89,6 +89,14 @@ export default function Home() {
             >
               Ver productos estrella
             </Link>
+
+            <Link
+              href="/tortas-cumpleanos"
+              className="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium border border-white/60 text-white hover:bg-white/10 transition"
+            >
+              Encarga tu torta de cumpleaños
+            </Link>
+
             <a
               href="https://wa.me/56900000000?text=Hola%20Resseta%20Diferente%2C%20quiero%20hacer%20un%20pedido"
               target="_blank"
@@ -98,6 +106,7 @@ export default function Home() {
               Haz tu pedido por WhatsApp
             </a>
           </div>
+
         </div>
       </section>
 
